@@ -39,8 +39,8 @@ def create_app():
     app.register_blueprint(rehive_blueprint)
 
     @app.route("/")
-    def hello():
-        return "<h1 style='color:blue'>It's Papaya bby!</h1>"
+    def testing():
+        return "<h1 style='color:blue'>Lets Flask!</h1>"
 
     return app
 
